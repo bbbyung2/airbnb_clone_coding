@@ -1,0 +1,14 @@
+
+
+# pipenv : python 3 버전으로 설치
+python -m pipenv --three
+
+# 전역으로 pipenv 깔기
+pip3 install -U pipenv
+
+#pipenv 버블 안에 들어가기
+python -m pipenv shell
+(버블 안에 있을것)
+
+# 장고 깔기
+python -m pipenv install django==2.2.5
